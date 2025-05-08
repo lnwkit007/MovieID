@@ -1,0 +1,946 @@
+html {
+    font-size: calc(60% + 0.8vmin);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Prompt", sans-serif;
+    background-color: rgb(9, 9, 9);
+    /* background-color: #acacac; */
+}
+
+
+
+/* Navbar start */
+.nav-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 5rem;
+
+
+    .logo {
+        display: flex;
+        margin-left: 4rem;
+        color: rgb(240, 0, 0);
+        font-size: 1.5rem;
+
+        #logo-name-2 {
+            margin-left: 5px;
+            color: #818181;
+        }
+    }
+}
+
+.Login {
+
+    ul {
+        display: flex;
+        margin-right: 3rem;
+
+        li {
+            list-style: none;
+            margin-right: 1rem;
+            background-color: #fff;
+            width: 6.5rem;
+            height: 2.4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0.625rem;
+
+            a {
+                color: black;
+                text-decoration: none;
+                font-size: 0.9rem;
+                transition: 0.2s;
+            }
+
+            a:hover {
+                color: rgb(240, 0, 0);
+            }
+        }
+    }
+}
+
+.nav-bottom {
+    ul {
+        display: flex;
+        background-color: rgb(192, 2, 11);
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        height: 2rem;
+
+        li {
+            padding: 0 1rem;
+
+            a {
+                color: #cfcfcf;
+                text-decoration: none;
+                font-size: 0.9rem;
+            }
+
+            a:hover {
+                color: #fff;
+            }
+        }
+    }
+}
+
+/* ปุ่มด้านหลัง สำหรับคุณ เริ่ม*/
+#menu-1 {
+    display: flex;
+    align-items: center;
+    background-color: rgb(240, 0, 0);
+    height: 2rem;
+}
+
+/* ปุ่มด้านหลัง สำหรับคุณ จบ*/
+
+
+.nav-toggle {
+    display: none;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+/*  Navbar end */
+
+
+
+/* main start */
+main {
+    /* border: 5px solid yellowgreen; */
+
+    .poster {
+        display: flex;
+        justify-content: center;
+
+        img {
+            margin: 1rem 0;
+            width: 75%;
+            border-radius: 1rem;
+        }
+    }
+}
+
+
+/* ดูหนังออนไลน์ 2024 เริ่ม */
+.box-con-1 {
+    /* border: 1px solid red; */
+
+    .title-1 {
+        /* border: 1px solid red; */
+        border-bottom: 2px solid #303030;
+        margin: 1rem 1.5rem;
+        padding: 0.5rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h2 {
+            color: #ffffff;
+            font-size: 1.5rem;
+        }
+
+        p {
+
+            a {
+                color: #ef5350;
+                text-decoration: none;
+                font-size: 1rem;
+            }
+        }
+
+        p:hover {
+
+            a {
+                color: rgb(240, 0, 0);
+            }
+        }
+    }
+
+}
+
+.more-1 {
+    display: none;
+}
+
+.movie-con-1 {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: auto;
+    padding: 0 2rem;
+    grid-gap: 0.5em;
+
+
+    .movie-item-1 {
+        /* border: 1px solid red; */
+
+        a {
+            text-decoration: none;
+
+            .img-moive-1 {
+
+                img {
+                    width: 100%;
+                    border: 2.5px solid rgba(255, 255, 255, 0);
+                    border-radius: 12px;
+                    transition: 0.2s;
+                }
+            }
+
+        }
+
+        a:hover {
+
+            img {
+                border: 2px solid rgb(240, 0, 0);
+                transform: scale(1.05); 
+            }
+
+        }
+    }
+}
+/* ดูหนังออนไลน์ 2024 จบ */
+
+
+/* หนังใหม่ เริ่ม */
+.box-con-2 {
+    /* border: 1px solid red; */
+
+    .title-2 {
+        /* border: 1px solid red; */
+        border-bottom: 2px solid #303030;
+        margin: 1rem 1.5rem;
+        padding: 0.5rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h2 {
+            color: #ffffff;
+            font-size: 1.5rem;
+        }
+
+        p {
+
+            a {
+                color: #ef5350;
+                text-decoration: none;
+                font-size: 1rem;
+            }
+        }
+
+        p:hover {
+
+            a {
+                color: rgb(240, 0, 0);
+            }
+        }
+    }
+
+}
+
+.movie-con-2 {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: auto;
+    padding: 0 2rem;
+    grid-gap: 0.5em;
+
+
+    .movie-item-2 {
+        /* border: 1px solid red; */
+
+        a {
+            text-decoration: none;
+
+            .img-moive-2 {
+
+                img {
+                    width: 100%;
+                    border: 2.5px solid rgba(255, 255, 255, 0);
+                    border-radius: 12px;
+                    transition: 0.2s;
+
+                }
+            }
+
+        }
+
+        a:hover {
+
+            img {
+                border: 2px solid rgb(240, 0, 0);
+                transform: scale(1.05); 
+            }
+
+        }
+    }
+}
+/* หนังใหม่ จบ */
+
+
+/* หนังและซีรีย์ Netflix เริ่ม */
+.box-con-3 {
+    /* border: 1px solid red; */
+
+    .title-3 {
+        /* border: 1px solid red; */
+        border-bottom: 2px solid #303030;
+        margin: 1rem 1.5rem;
+        padding: 0.5rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h2 {
+            color: #ffffff;
+            font-size: 1.5rem;
+        }
+
+        p {
+
+            a {
+                color: #ef5350;
+                text-decoration: none;
+                font-size: 1rem;
+            }
+        }
+
+        p:hover {
+
+            a {
+                color: rgb(240, 0, 0);
+            }
+        }
+    }
+
+}
+
+.movie-con-3 {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: auto;
+    padding: 0 2rem;
+    grid-gap: 0.5em;
+
+
+    .movie-item-3 {
+        /* border: 1px solid red; */
+
+        a {
+            text-decoration: none;
+
+            .img-moive-3 {
+
+                img {
+                    width: 100%;
+                    border: 2.5px solid rgba(255, 255, 255, 0);
+                    border-radius: 12px;
+                    transition: 0.2s;
+
+                }
+            }
+
+        }
+
+        a:hover {
+
+            img {
+                border: 2px solid rgb(240, 0, 0);
+                transform: scale(1.05); 
+            }
+
+        }
+    }
+}
+/* หนังและซีรีย์ Netflix จบ */
+
+
+/* หนังและซีรีย์ Disney+ Hotstar เริ่ม */
+.box-con-4 {
+    /* border: 1px solid red; */
+
+    .title-4 {
+        /* border: 1px solid red; */
+        border-bottom: 2px solid #303030;
+        margin: 1rem 1.5rem;
+        padding: 0.5rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h2 {
+            color: #ffffff;
+            font-size: 1.5rem;
+        }
+
+        p {
+
+            a {
+                color: #ef5350;
+                text-decoration: none;
+                font-size: 1rem;
+            }
+        }
+
+        p:hover {
+
+            a {
+                color: rgb(240, 0, 0);
+            }
+        }
+    }
+
+}
+
+.movie-con-4 {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: auto;
+    padding: 0 2rem;
+    grid-gap: 0.5em;
+
+
+    .movie-item-4 {
+        /* border: 1px solid red; */
+
+        a {
+            text-decoration: none;
+
+            .img-moive-4 {
+
+                img {
+                    width: 100%;
+                    border: 2.5px solid rgba(255, 255, 255, 0);
+                    border-radius: 12px;
+                    transition: 0.2s;
+
+                }
+            }
+
+        }
+
+        a:hover {
+
+            img {
+                border: 2px solid rgb(240, 0, 0);
+                transform: scale(1.05); 
+            }
+
+        }
+    }
+}
+/* หนังและซีรีย์ Disney+ Hotstar จบ */
+
+
+/* หนังและซีรีย์เกาหลี เริ่ม */
+.box-con-5 {
+    /* border: 1px solid red; */
+
+    .title-5 {
+        /* border: 1px solid red; */
+        border-bottom: 2px solid #303030;
+        margin: 1rem 1.5rem;
+        padding: 0.5rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h2 {
+            color: #ffffff;
+            font-size: 1.5rem;
+        }
+
+        p {
+
+            a {
+                color: #ef5350;
+                text-decoration: none;
+                font-size: 1rem;
+            }
+        }
+
+        p:hover {
+
+            a {
+                color: rgb(240, 0, 0);
+            }
+        }
+    }
+
+}
+
+.movie-con-5 {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: auto;
+    padding: 0 2rem;
+    grid-gap: 0.5em;
+
+
+    .movie-item-5 {
+        /* border: 1px solid red; */
+
+        a {
+            text-decoration: none;
+
+            .img-moive-5 {
+
+                img {
+                    width: 100%;
+                    border: 2.5px solid rgba(255, 255, 255, 0);
+                    border-radius: 12px;
+                    transition: 0.2s;
+
+                }
+            }
+
+        }
+
+        a:hover {
+
+            img {
+                border: 2px solid rgb(240, 0, 0);
+                transform: scale(1.05); 
+            }
+
+        }
+    }
+}
+/* หนังและซีรีย์เกาหลี จบ */
+
+
+/* หนังและซีรีย์ไทย เริ่ม */
+.box-con-6 {
+    /* border: 1px solid red; */
+
+    .title-6 {
+        /* border: 1px solid red; */
+        border-bottom: 2px solid #303030;
+        margin: 1rem 1.5rem;
+        padding: 0.5rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h2 {
+            color: #ffffff;
+            font-size: 1.5rem;
+        }
+
+        p {
+
+            a {
+                color: #ef5350;
+                text-decoration: none;
+                font-size: 1rem;
+            }
+        }
+
+        p:hover {
+
+            a {
+                color: rgb(240, 0, 0);
+            }
+        }
+    }
+
+}
+
+.movie-con-6 {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: auto;
+    padding: 0 2rem;
+    grid-gap: 0.5em;
+
+
+    .movie-item-6 {
+        /* border: 1px solid red; */
+
+        a {
+            text-decoration: none;
+
+            .img-moive-6 {
+
+                img {
+                    width: 100%;
+                    border: 2.5px solid rgba(255, 255, 255, 0);
+                    border-radius: 12px;
+                    transition: 0.2s;
+
+                }
+            }
+
+        }
+
+        a:hover {
+
+            img {
+                border: 2px solid rgb(240, 0, 0);
+                transform: scale(1.05); 
+            }
+
+        }
+    }
+}
+/* หนังและซีรีย์ไทย จบ */
+
+
+
+/* สปอยหนัง เริ่ม */
+.box-con-7 {
+    /* border: 1px solid red; */
+    padding-bottom: 2rem;
+
+    .title-7 {
+        /* border: 1px solid red; */
+        border-bottom: 2px solid #303030;
+        margin: 1rem 1.5rem;
+        padding: 0.5rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h2 {
+            color: #ffffff;
+            font-size: 1.5rem;
+        }
+
+        p {
+
+            a {
+                color: #ef5350;
+                text-decoration: none;
+                font-size: 1rem;
+            }
+        }
+
+        p:hover {
+
+            a {
+                color: rgb(240, 0, 0);
+            }
+        }
+    }
+
+}
+
+.movie-con-7 {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    padding: 0 2rem;
+    grid-gap: 0.5em;
+
+
+    .movie-item-7 {
+        /* border: 1px solid red; */
+
+        a {
+            text-decoration: none;
+
+            .img-moive-7 {
+
+                img {
+                    width: 100%;
+                    border: 2.5px solid rgba(255, 255, 255, 0);
+                    border-radius: 12px;
+                    transition: 0.2s;
+
+                }
+            }
+
+        }
+
+        a:hover {
+
+            img {
+                border: 2px solid rgb(240, 0, 0);
+                transform: scale(1.05); 
+            }
+
+        }
+    }
+}
+
+/* สปอยหนัง จบ */
+
+/* main end */
+
+
+/* publish start */
+.publish {
+
+    img {
+        width: 100%;
+    }
+}
+
+#publish-mobile {
+    display: none;
+}
+/* publish end */
+
+
+/* footer start */
+.footer-con{
+    display: grid;
+    grid-template-columns: 1fr 3fr 4fr;
+    /* border: 1px solid red; */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* footer-contact start */
+.footer-contact {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1.7rem;
+    margin-right: 0.5rem;
+}
+
+/* footer-logo */
+.footer-logo {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: center;
+}
+
+#footer-logo-name-1 {
+    color: rgb(240, 0, 0);
+}
+
+#footer-logo-name-2 {
+    color: #818181;
+    margin-left: 5px;
+}
+/* footer-logo end */
+
+
+/* footer-follow start */
+.footer-follow {
+    /* border: 1px solid red; */
+
+    p {
+        display: flex;
+        justify-content: center;
+        font-size: 0.9rem;
+        color: #fff;
+        margin: 5px 0;
+    }
+}
+
+.follow-platform {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+
+.follow-line {
+    /* border: 1px solid red; */
+
+    img {
+        border-radius: 50%;
+        /* width: 70%; */
+        width: 2.6rem;
+        margin: 0 5px;
+    }
+}
+
+.footer-facebook {
+    /* border: 1px solid red; */
+    
+    img{
+        border-radius: 50%;
+        width: 2.6rem;
+        margin: 0 5px;
+    }
+}
+
+.footer-x {
+    /* border: 1px solid red; */
+
+    img {
+        border-radius: 50%;
+        width: 2.6rem;
+        margin: 0 5px;
+    }
+}
+
+#Copyright {
+    font-size: 0.6rem;
+    color: #fff;
+    margin-top: 4px;
+}
+/* footer-follow end */
+
+/* footer-contact end */
+
+
+
+/* footer-app start */
+.footer-app {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+/* footer-app-top start */
+.footer-app-top {
+    display: flex;
+    padding: 0 0.5rem;
+    justify-content: center;
+}
+
+.app-logo {
+    img {
+        border-radius: 10px;
+        width: 4rem;
+    } 
+}
+
+.app-slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin-left: 1rem;
+}
+
+.slogan-top {
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.slogan-bottom {
+    color: rgb(240, 0, 0);
+    font-size: 0.7rem;
+}
+/* footer-app-top end */
+
+/* footer-app-bottom start */
+.footer-app-bottom {
+    display: flex;
+    /* border: 1px solid red; */
+    margin-top: 0.5rem;
+    justify-content: center;
+}
+
+.app-app-store {
+
+    img {
+        height: 2.5rem;
+        margin-right: 0.5rem;
+        border-radius: 0.5rem;
+    }
+}
+
+.app-google-play {
+
+    img {
+        margin-left: 0.5rem;
+        height: 2.5rem;
+        border-radius: 0.5rem;
+    }
+}
+/* footer-app-bottom start */
+
+/* footer-app end */
+
+
+/* footer-menu start */
+.footer-menu {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.footer-menu-left {
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+}
+
+.footer-menu-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid red; */
+
+    a {
+        padding-top: 0.5rem;
+        padding-left: 0.5rem;
+        text-decoration: none;
+        color: #fff;
+        /* border: 1px solid red; */
+    }
+
+    a:hover {
+        color: rgb(240, 0, 0);
+    }
+}
+
+.footer-menu-bottom {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    justify-content: center;
+
+    a {
+        padding-top: 0.5rem;
+        padding-left: 0.5rem;
+        text-decoration: none;
+        color: #fff;
+        /* border: 1px solid red; */
+    }
+
+    a:hover {
+        color: rgb(240, 0, 0);
+    }
+}
+
+.footer-menu-right {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+
+    a {
+        padding-top: 0.5rem;
+        padding-left: 0.5rem;
+        text-decoration: none;
+        color: #757575;
+        /* border: 1px solid red; */
+    }
+
+    a:hover {
+        color: rgb(240, 0, 0);
+    }
+}
+/* footer-menu end */
+
+
+/* footer end */

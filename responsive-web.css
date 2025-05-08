@@ -1,0 +1,475 @@
+/* Navbar start */
+
+/* nav-top start */
+@media screen and (max-width:480px) {
+
+    .nav-top {
+
+        .logo {
+            margin-left: 3rem;
+        }
+    }
+
+    #member {
+        display: none;
+    }
+
+    .Login {
+        
+        ul {
+            margin-right: 2rem;
+
+            li {
+                margin-right: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:280px) {
+
+    .nav-top {
+
+        .logo {
+            margin-left: 1rem;
+        }
+    }
+
+    #member {
+        display: none;
+    }
+
+    .Login {
+
+        ul {
+            margin-right: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width:210px) {
+
+    .nav-top {
+
+        .logo {
+            margin-left: 0.5rem;
+        }
+    }
+
+    #member {
+        display: none;
+    }
+
+    .Login {
+
+        ul {
+            margin-right: 0.5rem;
+        }
+    }
+}
+
+@media screen and (max-width:200px) {
+
+    .nav-top {
+
+        .logo {
+            margin-left: 0.5rem;
+        }
+    }
+
+    #login {
+        display: none;
+    }
+
+    #member {
+        display: none;
+    }
+}
+/* nav-top end */
+
+
+/* nav-bottom start */
+@media screen and (max-width:720px) {
+    .nav-bottom {
+
+        ul {
+            display: flex;
+            background-color: rgb(192, 2, 11);
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            height: 3rem;
+
+            li {
+                padding: 0 1rem;
+
+                a {
+                    display: none;
+                    color: #cfcfcf;
+                    text-decoration: none;
+                    font-size: 0.9rem;
+                }
+
+                a:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .nav-toggle {
+        display: flex;
+        font-size: 1.7rem;
+        color: #fff;
+    }
+
+    #menu-1 {
+        display: flex;
+        align-items: center;
+        background-color: rgb(192, 2, 11);
+        height: 2rem;
+    }
+
+    .menu-toggle {
+        background-color: rgb(192, 2, 11);
+        display: flex;
+        justify-content: center;
+
+        ul {
+            text-align: center;
+            list-style: none;
+            width: 100%;
+
+
+            a {
+                color: #cfcfcf;
+                text-decoration: none;
+                font-size: 0.9rem;
+                transition: 0.2s;
+                display: flex;
+                justify-content: center;
+                padding: 1rem 2rem;
+                
+            }
+
+            a:hover {
+                color: #fff;
+            }
+        }
+    }
+
+    .menu-li-toggle:hover {
+        background-color: rgb(240, 0, 0);
+
+        a {
+            color: #fff;
+        }
+
+    }
+
+    .active {
+        display: none;
+    }
+
+}
+/* nav-bottom end */
+
+/*  Navbar end */
+
+
+
+/* content start */
+
+/* Movie item start */
+@media screen and (max-width:1024px) {
+
+    .movie-con-1 {
+        grid-template-columns: repeat(6 , 1fr);
+    }
+
+    .movie-con-2 {
+        grid-template-columns: repeat(6 , 1fr);
+    }
+
+    .movie-con-3 {
+        grid-template-columns: repeat(6 , 1fr);
+    }
+
+    .movie-con-4 {
+        grid-template-columns: repeat(6 , 1fr);
+    }
+
+    .movie-con-5 {
+        grid-template-columns: repeat(6 , 1fr);
+    }
+
+    .movie-con-6 {
+        grid-template-columns: repeat(6 , 1fr);
+    }
+
+    #movie-responsive-7 {
+        display: none;
+    }
+
+    .more-1 {
+        display: flex;
+    }
+
+}
+
+
+@media screen and (max-width:768px) {
+
+    .movie-con-1 {
+        grid-template-columns: repeat(5 , 1fr);
+    }
+
+    .movie-con-2 {
+        grid-template-columns: repeat(5 , 1fr);
+    }
+
+    .movie-con-3 {
+        grid-template-columns: repeat(5 , 1fr);
+    }
+
+    .movie-con-4 {
+        grid-template-columns: repeat(5 , 1fr);
+    }
+
+    .movie-con-5 {
+        grid-template-columns: repeat(5 , 1fr);
+    }
+
+    .movie-con-6 {
+        grid-template-columns: repeat(5 , 1fr);
+    }
+
+    #movie-responsive-6 {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+
+    .movie-con-1 {
+        grid-template-columns: repeat(4 , 1fr);
+    }
+
+    .movie-con-2 {
+        grid-template-columns: repeat(4 , 1fr);
+    }
+
+    .movie-con-3 {
+        grid-template-columns: repeat(4 , 1fr);
+    }
+
+    .movie-con-4 {
+        grid-template-columns: repeat(4 , 1fr);
+    }
+
+    .movie-con-5 {
+        grid-template-columns: repeat(4 , 1fr);
+    }
+
+    .movie-con-6 {
+        grid-template-columns: repeat(4 , 1fr);
+    }
+
+    #movie-responsive-5 {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:319px) {
+
+    .movie-con-1 {
+        grid-template-columns: repeat(3 , 1fr);
+    }
+
+    .movie-con-2 {
+        grid-template-columns: repeat(3 , 1fr);
+    }
+
+    .movie-con-3 {
+        grid-template-columns: repeat(3 , 1fr);
+    }
+
+    .movie-con-4 {
+        grid-template-columns: repeat(3 , 1fr);
+    }
+
+    .movie-con-5 {
+        grid-template-columns: repeat(3 , 1fr);
+    }
+
+    .movie-con-6 {
+        grid-template-columns: repeat(3 , 1fr);
+    }
+
+    #movie-responsive-4 {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:240px) {
+
+    .movie-con-1 {
+        grid-template-columns: repeat(2 , 1fr);
+    }
+    .movie-con-2 {
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+    .movie-con-3 {
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+    .movie-con-4 {
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+    .movie-con-5 {
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+    .movie-con-6 {
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+    #movie-responsive-3 {
+        display: none;
+    }
+}
+/* Movie item end */
+
+
+/* Movie item (สปอยหนัง) เริ่ม */
+@media screen and (max-width: 768px){
+    .movie-con-7 {
+        grid-template-columns: repeat(4 , 1fr);
+    }
+
+    #movie-responsive-7-5 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .movie-con-7 {
+        grid-template-columns: repeat(3 , 1fr);
+    }
+
+    #movie-responsive-7-4 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .movie-con-7 {
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+    #movie-responsive-7-3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 240px) {
+    .movie-con-7 {
+        grid-template-columns: repeat(1 , 1fr);
+    }
+
+    #movie-responsive-7-2 {
+        display: none;
+    }
+}
+
+/* Movie item (สปอยหนัง) จบ */
+
+/* content end */
+
+
+/* publish start */
+@media screen and (max-width: 990px){
+
+    #publish-desktop {
+        display: none;
+    }
+
+    #publish-mobile {
+        display: flex;
+    }
+}
+/* publish end */
+
+
+/* footer start */
+@media screen and (max-width: 1200px) {
+
+    .footer-con {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-menu-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-menu-top {
+        margin-top: 0.5rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        display: grid;
+        grid-template-columns: 0.4fr 0.25fr 0.5fr 0.5fr 0.7fr;
+        grid-gap: 0.25rem;
+
+        a{
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .footer-menu-bottom {
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 0.5fr 1.3fr 1fr 2.5fr;
+        grid-gap: 0.25rem;
+
+        a {
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .footer-menu-right {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .footer-con {
+        padding-bottom: 1rem;
+    }
+
+    .footer-menu {
+        display: none;
+    }
+}
+/* footer end */
